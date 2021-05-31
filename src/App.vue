@@ -3,7 +3,7 @@
     <div class="flex-grow max-w-2xl">
       <div class="grid mb-10 text-black dark:text-white place-items-center">
         <div class="mb-6 text-4xl font-bold text-center">💉 magikal.&ZeroWidthSpace;eenprik.nl</div>
-        <div class="text-center max-w-[60ch]">Check met behulp van <a href="https://github.com/jochemkeller/prikdata" target="_blank" rel="noopener" class="inline-block text-blue-700 rounded-md dark:text-blue-400 focus:outline-none focus:ring focus:ring-offset-8 focus:ring-offset-light-100 dark:focus:ring-offset-dark-100 focus:ring-blue-700 dark:focus:ring-blue-400 focus:ring-opacity-75">gescrapede gegevens</a> van <a href="https://coronatest.nl" target="_blank" rel="noopener" class="inline-block text-blue-700 rounded-md dark:text-blue-400 focus:outline-none focus:ring focus:ring-offset-8 focus:ring-offset-light-100 dark:focus:ring-offset-dark-100 focus:ring-blue-700 dark:focus:ring-blue-400 focus:ring-opacity-75">coronatest.nl</a> of jij al in aanmerking komt voor een vaccinatie!</div>
+        <div class="text-center max-w-[60ch]">Check met behulp van gescrapede gegevens van <a href="https://coronatest.nl" target="_blank" rel="noopener" class="inline-block text-blue-700 rounded-md dark:text-blue-400 focus:outline-none focus:ring focus:ring-offset-8 focus:ring-offset-light-100 dark:focus:ring-offset-dark-100 focus:ring-blue-700 dark:focus:ring-blue-400 focus:ring-opacity-75">coronatest.nl</a> of jij al in aanmerking komt voor een vaccinatie!</div>
       </div>
       <router-view/>
       <div class="mt-8 text-light-300 dark:text-dark-700">
