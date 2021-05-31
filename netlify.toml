@@ -1,0 +1,28 @@
+[build]
+  functions = "lambda"
+  environment = { NODE_VERSION = "14", NODE_ENV = "production" }
+
+[functions]
+  node_bundler = "esbuild"
+
+[dev]
+  autoLaunch = false
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
+
+[[redirects]]
+  from = '/api/*'
+  status = 200
+  to = '/.netlify/functions/:splat'
+
+[[redirects]]
+  from = "/*"
+  status = 200
+  to = "/index.html"
+
+# Opting your Website out of Google's FLoC Network
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"

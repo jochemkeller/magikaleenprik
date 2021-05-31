@@ -1,0 +1,19 @@
+{
+  "name": "node-fetch",
+  "version": "1.0.0",
+  "description": "netlify functions:create - default template for node fetch function",
+  "keywords": [
+    "netlify",
+    "serverless",
+    "js"
+  ],
+  "license": "MIT",
+  "author": "Netlify",
+  "main": "node-fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
