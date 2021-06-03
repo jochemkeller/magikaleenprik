@@ -29,7 +29,7 @@
         <div>
           <label class="inline-flex items-start text-lg">
             <input type="checkbox" class="w-6 h-6 border-gray-300 rounded shadow-sm check focus:border-red-600 focus:outline-none focus:ring focus:ring-offset-0 focus:ring-red-400 focus:ring-opacity-75" v-model="indication">
-            <span class="ml-4 text-left">Heb je een medische indicatie? <a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-vaccinatie/vraag-en-antwoord/welke-medische-risicogroepen-krijgen-met-voorrang-een-coronavaccinatie" target="_blank" rel="noopener" class="inline-block text-sm text-blue-800 rounded-lg dark:text-blue-300 focus:outline-none focus:ring focus:ring-offset-8 focus:ring-offset-light-200 dark:focus:ring-offset-dark-200 focus:ring-blue-800 dark:focus:ring-blue-300 focus:ring-opacity-75">(meer informatie)</a></span>
+            <span class="ml-4 text-left">Heb je een medische indicatie? <a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-vaccinatie/vraag-en-antwoord/welke-medische-risicogroepen-krijgen-met-voorrang-een-coronavaccinatie" target="_blank" rel="noopener" class="inline-block text-sm text-blue-800 rounded-lg dark:text-blue-300 focus:outline-none focus:ring focus:ring-offset-8 focus:ring-offset-light-200 dark:focus:ring-offset-dark-200 focus:ring-blue-800 dark:focus:ring-blue-300 focus:ring-opacity-75 hover:underline focus:underline">(meer informatie)</a></span>
           </label>
         </div>
       </div>

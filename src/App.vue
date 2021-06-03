@@ -3,7 +3,12 @@
     <div class="flex-grow max-w-2xl">
       <div class="grid mb-10 text-black dark:text-white place-items-center">
         <div class="mb-6 text-4xl font-bold text-center">💉 magikal.&ZeroWidthSpace;eenprik.nl</div>
-        <div class="text-center max-w-[60ch]">Check met behulp van gescrapede gegevens van <a href="https://coronatest.nl" target="_blank" rel="noopener" class="inline-block text-blue-700 rounded-md dark:text-blue-400 focus:outline-none focus:ring focus:ring-offset-8 focus:ring-offset-light-100 dark:focus:ring-offset-dark-100 focus:ring-blue-700 dark:focus:ring-blue-400 focus:ring-opacity-75">coronatest.nl</a> of jij al in aanmerking komt voor een vaccinatie!</div>
+        <div class="text-center max-w-[60ch] mb-6">Check met behulp van gescrapede gegevens van <a href="https://coronatest.nl" target="_blank" rel="noopener" class="inline-block text-blue-700 rounded-md dark:text-blue-400 focus:outline-none focus:ring focus:ring-offset-8 focus:ring-offset-light-100 dark:focus:ring-offset-dark-100 focus:ring-blue-700 dark:focus:ring-blue-400 focus:ring-opacity-75 hover:underline focus:underline">coronatest.nl</a> of jij al in aanmerking komt voor een vaccinatie!</div>
+        <div class="text-center max-w-[60ch]">
+          <strong>Update 3 juni 2021</strong>
+          <div>Het is inmiddels onmogelijk gemaakt om de API te gebruiken op de manier hoe ik dit deed (<a class="inline-block text-blue-700 rounded-md dark:text-blue-400 focus:outline-none focus:ring focus:ring-offset-8 focus:ring-offset-light-100 dark:focus:ring-offset-dark-100 focus:ring-blue-700 dark:focus:ring-blue-400 focus:ring-opacity-75 hover:underline focus:underline" href="https://en.wikipedia.org/wiki/Rate_limiting" target="_blank" rel="noopener">lees meer over rate limiting</a>). Ik zal mijn best doen om de check handmatig zo up to date mogelijk te houden.</div>
+          <div class="mt-2">- Jochem</div>
+        </div>
       </div>
       <router-view/>
       <div class="mt-8 text-light-300 dark:text-dark-700">
