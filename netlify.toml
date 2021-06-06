@@ -1,6 +1,7 @@
 [build]
-  functions = "lambda"
   environment = { NODE_VERSION = "14", NODE_ENV = "production" }
+  functions = "lambda"
+  ignore = "git log -1 --pretty=%B | grep [dependabot]"
 
 [functions]
   node_bundler = "esbuild"
