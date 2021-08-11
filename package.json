@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@vuelidate/core": "2.0.0-alpha.23",
-    "@vuelidate/validators": "2.0.0-alpha.19",
+    "@vuelidate/validators": "2.0.0-alpha.20",
     "vue": "3.1.5",
     "vue-router": "4.0.11"
   },
