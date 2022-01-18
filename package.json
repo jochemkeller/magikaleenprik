@@ -10,7 +10,7 @@
   "dependencies": {
     "@vuelidate/core": "2.0.0-alpha.34",
     "@vuelidate/validators": "2.0.0-alpha.26",
-    "vue": "3.2.26",
+    "vue": "3.2.27",
     "vue-router": "4.0.12"
   },
   "devDependencies": {
